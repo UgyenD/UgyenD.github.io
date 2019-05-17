@@ -1,1 +1,13 @@
-	background-image: url(images\IMG_0585.JPG);
+html,body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+body{
+	font-family: 'Lato',sans-serif;
+	background-image: url(images\IMG_0585.jpg);
+}
+
