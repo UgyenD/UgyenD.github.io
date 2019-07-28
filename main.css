@@ -1,3 +1,7 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
 html,body{
 	min-height: 100%;
 	display: flex;
@@ -17,6 +21,16 @@ body{
   	text-align: center;
   	color: transparent;
   	backface-visibility: hidden;
+}
+
+span {
+  display: inline-block;
+  text-shadow: 0 0 0 whitesmoke;
+  animation: smoky 5s 3s both;
+}
+
+span:nth-child(even){
+  animation-name: smoky-mirror;
 }
 
 @keyframes smoky {
