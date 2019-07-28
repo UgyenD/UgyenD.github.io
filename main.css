@@ -8,6 +8,9 @@ html,body{
 
 body{
 	font-family: 'Lato',sans-serif;
+	background-image: url(tempback.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
 	background-color: green;
 }
 
