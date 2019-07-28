@@ -13,7 +13,7 @@ html,body{
 body{
 	background: black;
 	overflow: hidden;
-  	font: 'Lato';
+  	font: 5vw/100vh "Finger Paint";
   	text-align: center;
   	color: transparent;
   	backface-visibility: hidden;
