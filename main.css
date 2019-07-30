@@ -14,6 +14,62 @@ html,body{
 	 font-family: 'Menlo', monospace; 
 }
 
+body
+{
+    margin-top: 268px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*Menu Style*/
+.dropbtn{
+    background: transparent;
+    border: 0px solid transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-menu{
+    position: relative;
+    display:inline-block;
+}
+
+.menu-content{
+    left:-10;
+    display: none;
+    position:absolute;
+    background-color: #fff;
+    width: 100%;
+    overflow: auto;
+    height: 153px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+}
+
+
+.menu-content a{
+    color: black;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    margin-left: -2.5em;
+    text-indent: 1.3em;
+}
+
+.menu-content a:hover {background-color: #ddd;}
+
+.dropdown-menu:hover .menu-content {display: block;}
+
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 0;
@@ -23,12 +79,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 .input-text {
     background: #fff;
     overflow: hidden;
-    width: 440px;
+    width: 450px;
     margin: 0 auto;
-    margin-top: 16rem;
     padding: .75rem 1rem;
-    border-radius: 2px;
-    border: 1px solid #ccc;
+    border-radius: 0px;
+    border: 1px solid #fff;
 }
 
 
