@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 
 
 .skillLeveljs{
-    border-radius: 10px 0 0 10px;
+    border-radius: 11px 0 0 11px;
     padding: 4px;
     position:relative;
     left: -5px;
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 .skillLevelpy{
-    border-radius: 10px 0 0 10px;
+    border-radius: 11px 0 0 11px;
     padding: 4px;
     position:relative;
     left: -5px;
@@ -223,14 +223,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 .skillLevelja{
-    border-radius: 10px 0 0 10px;
+    border-radius: 11px 0 0 11px;
     padding: 4px;
     position:relative;
     left: -5px;
     margin-right:31px;
 }
 .skillLevelcpp{
-    border-radius: 10px 0 0 10px;
+    border-radius: 11px 0 0 11px;
     padding: 4px;
     position:relative;
     left: -5px;
@@ -238,15 +238,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 .skillLevelbs{
-    border-radius: 10px 0 0 10px;
+    border-radius: 11px 0 0 11px;
     padding: 4px;
     position:relative;
     left: -5px;
     margin-right:80px;
+    border-color: red;
+    border-width: thick;
 }
 
 .skillLevelHc{
-    border-radius: 10px 0 0 10px;
+    border-radius: 11px 0 0 11px;
     padding: 4px;
     position:relative;
     left: -5px;
@@ -292,6 +294,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 #bsPadding{
     margin-right: 20px;
+}
+
+.skillsExtraspacing{
+    margin:10px;
 }
 /*END skills pg*/
 
