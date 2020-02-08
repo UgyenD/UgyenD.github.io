@@ -7,9 +7,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href ="main.css">
-    <script>AOS.init();</script>
-    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href ="main.css">
+    <link rel="shortcut icon" type="image/png" href="Media/Images/bhutan.png">
+    <title>Ugyen Dorji | Software Developer</title>
 </head>
     
     <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: black">
@@ -50,21 +50,28 @@
         
         <div class="container siteText">
             
-           
+           <!-- Abooutme Profile Pic -->
+            <div data-aos="fade-down">
+
             <div class="row justify-content-sm-center">
                 <div class="aboutmeAvatar">
                     <div class="aboutimgdiv" >
-                        <img class="aboutimg" src ="Media/Images/aboutmepic2.JPG" alt="Avatar">
+                        <img class="aboutimg" src ="Media/Images/aboutmepic1.JPG" alt="Avatar">
                     </div>
                     
                 <div class="myName"><strong>Ugyen.Dorji</strong></div>
                     
                 </div>
             </div>
+
+            </div>
+            <!-- END Aboutme Profile -->
             
             <div class="row justify-content-sm-center mainContent">
                 <div class="col-md-10">
 <!--                    START aboutMe-->
+                    <div data-aos="fade-up">
+
                      <div class="contentBlocks">
                     <div class="container">
                         <div>
@@ -83,16 +90,20 @@
                         <div class="infoLine">
                             <span class="infoTxt">graduationDate<span class="symbols">:</span></span><span class="infoVal">"June 2020"<span class="symbols">;</span></span>
                         </div>
-                        <div class="infoLine"><span class="symbols">/* Hello, I am Ugyen. I am a fourth year CSE student at the University of California, Irvine. I was born and raised in West Los Angeles by two loving and hardworking Bhutanese immigrant parents. Software has always intrigued me. From my early days of jailbreaking ipod touches in middle school to programming a simple A.I. system for a class, software has always been a constant. My keenness to create and problem solve has lead me in the pursuit of a career in software engineering. I believe my computer science and engineering background makes me a versatile asset. If understanding of hardware is needed to solve the problem, I can do it. To the same extent, if knowledge of software is required for the problem, I'm your guy. I can also serve as an itermediary between engineers and programmers when needed. */</span>
+                        <br>
+                        <div class="infoLine" style="font-size: 16pt;"><span class="symbols">/* Hello, I am Ugyen. I am a fourth year CSE student at the University of California, Irvine. I was born and raised in West Los Angeles by two loving and hardworking Bhutanese immigrant parents. Software has always intrigued me. From my early days of jailbreaking ipod touches in middle school to programming a simple A.I. system for a class, software has always been a constant. My keenness to create and problem solve has lead me in the pursuit of a career in software engineering. I believe my computer science and engineering background makes me a versatile asset. If understanding of hardware is needed to solve the problem, I can do it. To the same extent, if knowledge of software is required for the problem, I'm your guy. I can also serve as an itermediary between engineers and programmers when needed. */</span>
                         </div>
                         <div class="symbols text">}</div>  
                     </div>
+                     </div>
+
                      </div>
                 <!--        END aboutMe-->
                     <div class="spacingSec"></div>
                     <div id="skills_sec" class="spacingSec"></div>
                 <!--     START skills     -->
 <!--                    <div id="skills_sec">-->
+            <div data-aos="fade-up-left">
                 <div class="container">
                     <div class="siteHeaders">.skills</div>
                         <span class="symbols">{</span>
@@ -146,17 +157,20 @@
                     </div>
                         <div class="symbols text">}</div> 
                     </div>
+            </div>
 <!--                 END skills -->
                 <div class="spacingSec"></div>
                 <div id="projects_sec" class="spacingSec"></div>
 <!--                    START projects-->
 <!--                <div id="projects_sec">-->
+                    <div data-aos="fade-right">
                      <div class="siteHeaders">.projects</div>
                     <div class="container infoLine">
                         <span class="symbols">{</span>
+                        </div>
                         <div class="container">
 <!--                            proj 1-->
-                            <div class="row">
+                            <div class="row" data-aos="fade-right">
                                 <div class="col-md">
                                     <div class="infoLine">
                                     <div class="infoLine" id="proj1"><div class="overlayText">141 OS Simualtion<a href="https://github.com/UgyenD/O.S.-Simulation" target="_blank"> (Source Code)</a></div></div>
@@ -167,9 +181,12 @@
                                     <p class="infoLine symbols">Simulation of an operating system that is able to read/write to memory and call print jobs. The program utilizes multithreading in Java to perform simultaneous operations on the available disks and printers. The program begins by the users writing to the disks(by one user at a time) then the printers read the information from the disk and print, writes to a text file, the information read from the disk. The GUI was developed with Javafx;</p>
                                 </div>
                             </div>
+
+
+
                             <div class="projSpacing"></div>
 <!--                            proj 2-->
-                            <div class="row">
+                            <div class="row" data-aos="fade-left">
                                 <div class ="col-md">
                                     <div class="infoLine projTitle">Othello/Reversi A.I.:</div>
                                     <p class="infoLine symbols">An A.I. program developed for the game Othello(Reversi) with C++. The program performs a heuristic searching to identify the best possible move for winning the game. The program creates a tree of possible moves, and calculates the most optimal path for the user;
@@ -189,7 +206,7 @@
 
                     <div class="container">
 <!--                        proj 3-->
-                        <div class="row">
+                        <div class="row" data-aos="fade-right">
                             <div class="col-md">
                                 <div class="infoLine">
                                     <div class="infoLine" id="proj3"><div class="overlayText overlayTextpos3">DorjiMaps<a href="https://github.com/UgyenD/Simple-G.P.S.-Navigation-System-" target="_blank"> (Source Code)</a></div></div>
@@ -204,7 +221,7 @@
                         
 <!--                        proj 4-->
                          <div class="projSpacing"></div>
-                        <div class="row">
+                        <div class="row" data-aos="fade-left">
                            
                             <div class="col-md">
                                  <div class="infoLine projTitle">Portfolio Website:</div>
@@ -220,7 +237,7 @@
                         </div>
                         </div>
                     </div>
-                    <span class="symbols text">}</span>
+                    <span class="symbols text" data-aos="fade-left">}</span>
                     
 <!--                </div>-->
 <!--                    END projects-->
@@ -229,11 +246,12 @@
 <!--                    START contact-->
 <!--                    <div id="contact_sec">-->
                     <div class="container" id ="contactBottom">
-                        <div class="siteHeaders">.contact</div>
-                        <span class="symbols">{</span>
+                        <div class="siteHeaders" data-aos="fade-right" data-aos-delay="650">.contact</div>
+                        <span class="symbols" data-aos="fade-right" data-aos-delay="650">{</span>
+                        <br>
                         <div class="container infoLine">
                             <div class="row">
-                                <div class="col-md">
+                                <div class="col-md" data-aos="fade-right">
                                     <div class="container">
                                         <div class="linkedin">
                                         <a href="https://www.linkedin.com/in/ugyen-dorji-a08613183" class="btn" target ="_blank">
@@ -245,7 +263,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md">
+                                <div class="col-md" data-aos="fade-up">
                                     <div class="container">
                                         <div class="gmail">
                                             <a href="mailto: tddorji101@gmail.com" class="btn" target ="_blank"></a>
@@ -256,7 +274,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md">
+                                <div class="col-md" data-aos="fade-left">
                                     <div class="container">
                                         <div class="github">
                                             <a href="https://github.com/UgyenD" class="btn" target ="_blank"></a>
@@ -268,8 +286,9 @@
                                 </div>
                             </div>
                         </div>
-                        <span class="symbols text">}</span>
+                        <span class="symbols text" data-aos="fade-left" data-aos-delay="650">}</span>
                     </div>
+                    <div class="spacingSec"></div>
 <!--                    </div>-->
 <!--                    END contact-->
                 </div>
@@ -279,6 +298,14 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-out-quart',
+                duration: 1500,
+                delay:300
+            });
+        </script>
 	</body>
 </html>
 

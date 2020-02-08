@@ -64,7 +64,7 @@ html,body{
 
 .menu-content{
     top:50px;
-    display: none;
+    display: inherit;
     position:absolute;
     background-color: transparent;
     width: 100%;
@@ -134,8 +134,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 .aboutimg{
     border: 5px outset white;
     border-radius:15%;
-    width: 300px;
-    height: 205px;
+    width: 200px;
+    height: 200px;
 }
 .aboutmepg{
     background-color: black;
@@ -148,7 +148,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 .aboutimgdiv{
     background: transparent;
     margin:auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-left: 14%;
 }
 .myName{
     font-family: bios,monospace;
@@ -636,12 +637,12 @@ a{
 
 .message span {
     position: absolute;
-    top: 0;
+    top: -14%;
     right: 0;
     bottom: 0;
     width: 0;
     background: black;
-    border-left: 4px solid #606060;
+    border-left: 12px solid #606060;
 
     -webkit-animation-name: typing, blinking;
     -webkit-animation-duration: 3.5s, .8s;
@@ -688,6 +689,8 @@ a{
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
 }
+
+
 
 
 
