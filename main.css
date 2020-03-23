@@ -300,6 +300,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 .skillsExtraspacing{
     margin:10px;
 }
+
+.skillHeadingPadding{
+    padding-top: 10px;
+}
 /*END skills pg*/
 
 
@@ -607,7 +611,8 @@ div.github a:hover:after {
 }
 
 .skillsSpacing{
-    padding-bottom: 4px;
+    padding-top: 14px;
+    
 }
 
 .spacingSec{
@@ -689,6 +694,80 @@ a{
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
 }
+
+
+@keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 7s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #ffcc33;
+  }
+  .bar.back::before{
+    background-color: #a6cfe3;
+  }
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(60% - 10px);
+    background-color: lightsalmon;
+  }
+  .bar.intermediate.tools::before{
+    width: calc(60% - 10px);
+    background-color: lightblue;
+  }
+  .bar.advanced::before{
+    width: calc(80% - 10px);
+    background-color: lightgreen;
+  }
+  .bar.expert::before{
+    width: calc(100% - 10px);
+  }
+  
 
 
 
